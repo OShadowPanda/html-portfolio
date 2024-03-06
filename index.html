@@ -1,40 +1,78 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>OShadowPanda Portfolio</title>
+  <title>CSS Box Model</title>
+  <style>
+    /* Write your CSS code here */
+    div {
+      height: 200px;
+      width: 200px;
+    }
+
+    #blue {
+      background-color: blue;
+      padding: 20px;
+      border: 10px solid black;
+    }
+
+    p {
+      margin: 0;
+    }
+
+
+
+    #red {
+      background-color: red;
+    }
+
+    #green {
+      background-color: green;
+    }
+
+
+    #red {
+      border: solid black;
+      border-width: 20px 10px;
+      margin-left: 260px;
+    }
+
+    #green {
+      border: 10px solid black;
+      margin-left: 40px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>OShadowPanda's Portfolio</h1>
-  <h2>I'm a Web developer</h2>
-  <hr>
-  <h3><a href="./public/movie-ranking-project.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking-project.png" height="300" alt="movie Ranking Project Preview">
-  <hr>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="500" alt="Birthday Invite Project Preview">
-  <hr>
-  <a href="public/about.html">About me</a>
-  <a href="public/contact.html">Contact Me</a>
+  <div id="blue">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+      id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+      dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
+  </div>
+  <div id="red"></div>
+  <div id="green"></div>
 
+
+
+
+  <!-- TODOs:
+1. Create 3 Boxes using the div element.
+2. Set their sizes to 200px heigh by 200px wide.
+3. Set different background colors for each of the boxes (I used cadetblue, gold and indianred).
+4. Add a paragraph <p> element into the first div and add the following words:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+5. Set the 1st div to have 20px padding all around with a black 10px border.
+6. Fix the style of the <p> element to remove all margins.
+Hint: Use the CSS inspector in Chrome.
+7. Set the 2nd div to have a 20px border on top and bottom and 10px border left and right. (See goal image)
+8. Set the 3rd div to have a 10px border 
+9. Set the margins for the divs so that each box corner touches the other. (See the goal image)
+-->
 
 </body>
 
 </html>
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
